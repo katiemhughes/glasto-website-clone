@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+html {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.glastonburyfestivals.co.uk/wp-content/uploads/2019/05/2019header2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100vw;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 68px;
+    background-color: #E83F34;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    margin: -8px;
+    padding-top: 0.5px;
+    padding-right: 14px;
+    padding-bottom: 0.5px;
+    padding-left: 14px;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 1.4vw;
+    transform: scale(0.9, 2);
+}
+
+#home {
+    background-color: #00ACF0;
+    color: #3B3A3A
+}
+
+#news {
+    background-color: #FAF400;
+    color: #00AE4A;
+}
+
+#info {
+    background-color: #E82A14;
+    color: #FFFFFF;
+}
+
+#lineup {
+    background-color: #00AE4A;
+    color: #FCF500;
+}
+
+#areas {
+    background-color: #EB7BB2;
+    color: #FFFFFF;
+}
+
+#history {
+    background-color: #FAF400;
+    color: #00ACF0;
+}
+
+#gallery {
+    background-color: #00AE4A;
+    color: #FFFFFF;
+}
+
+#contact {
+    background-color: #3FBAF6;
+    color: #00AE4A;
+}
+
+#worthy {
+    background-color: #E82A14;
+    color: #FFFFFF;
+}
+
+#shop {
+    background-color: #FAF400;
+    color: #013029;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.navbar2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#home2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    padding-top: 30px;
+    margin-left: 20px;
+    color: #ffffff;
+    line-height: 25px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-color: currentcolor;
+    text-decoration-thickness: auto;
+    text-transform: uppercase;
+}
+
+#search {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-left: 210px;
+    color: #ffffff;
+    line-height: 25px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-color: currentcolor;
+    text-decoration-thickness: auto;
+    text-transform: uppercase;
+}
+
+#s {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: #fff;
+    font-size: 1.4em;
+    font-family: 'Courier';
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+#searchsubmit {
+    vertical-align: bottom;
+    padding-bottom: 3px;
+}
+
+.searchbox {
+    text-align: right;
+}
+
+.maincontent {
+    background-image: url(https://cdn.glastonburyfestivals.co.uk/wp-content/uploads/2019/09/skybg5.jpg);
+    background-position: top center;
+    background-repeat: repeat;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+}
+
+.topbanner {
+    padding-left: 200px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.glastoathome {
+    border: 20px solid #ffffff;
+}
+
+.twocolumns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+}
+
+.firstcolumn {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 50vw;
+    height: 1000px;
+    margin-left: -250px;
+}
+
+.firstfirstitem {
+    display: flex;
+    flex-flow: row wrap;
+    height: 300px;
+    width: 50vw;
+    background-color: #FFFFFF;
+}
+
+.virtuallineup {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    word-spacing: -0.667px;
+    letter-spacing: 0px;
+    font-size: 60px;
+    width: 40vw;
+    height: 10vw;
+    margin-left: 200px;
+    margin-top: -200px;
+    color: #EA048B;
+}
+
+.date1 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 200px;
+    color: #64655d;
+}
+
+.secorner {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+.secondcolumn {
+    width: 20vw;
+    height: 1000px;
+    background-color: #FFFFFF;
+    margin-left: 30px;
+}
+
+.secondfirstitem {
+    display: flex;
+    flex-flow: column wrap;
+    
+}
